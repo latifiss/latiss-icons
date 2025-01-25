@@ -1,0 +1,29 @@
+{
+  "name": "latiss-icons",
+  "version": "1.0.0",
+  "description": "A versatile and lightweight icon library designed to work seamlessly with React, Next.js and React Native. Packed with beautifully crafted icons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "Native",
+    "Icons",
+    "Nextjs",
+    "Icon"
+  ],
+  "author": "latifiss",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-native": "^0.77.0",
+    "react-native-svg": "^15.11.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.7.3"
+  }
+}
