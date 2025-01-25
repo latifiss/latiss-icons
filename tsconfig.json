@@ -1,13 +1,14 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "jsx": "react",
-      "declaration": true,
-      "outDir": "./dist",
-      "strict": true
-    },
-    "include": ["src"],
-    "exclude": ["node_modules", "dist"]
-  }
-  
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react"  // This enables JSX support
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

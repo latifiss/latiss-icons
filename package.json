@@ -5,17 +5,18 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "",
+  "homepage": "https://github.com/latifiss/latiss-icons",
+  "repository": {
+    "url": "https://github.com/latifiss/latiss-icons"
+  },
   "scripts": {
-     "build": "tsup",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "React",
-    "React",
+    "React Native",
     "Native",
     "Icons",
-    "Nextjs",
     "Icon"
   ],
   "author": "latifiss",
@@ -26,6 +27,7 @@
     "react-native-svg": "^15.11.1"
   },
   "devDependencies": {
+    "@swc/core": "^1.10.9",
     "@types/react": "^18.3.18",
     "@types/react-native": "^0.73.0",
     "tsup": "^8.3.5",
