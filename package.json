@@ -4,6 +4,7 @@
   "description": "A versatile and lightweight icon library designed to work seamlessly with React, Next.js and React Native. Packed with beautifully crafted icons.",
   "main": "index.js",
   "scripts": {
+     "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@types/react": "^18.3.18",
     "@types/react-native": "^0.73.0",
+    "tsup": "^8.3.5",
     "typescript": "^5.7.3"
   }
 }
